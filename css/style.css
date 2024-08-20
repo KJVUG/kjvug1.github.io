@@ -1,0 +1,293 @@
+*{
+margin:0; padding:0; 
+list-style:none; outline:none; 
+border:0; background:none;
+
+}
+body{font-family:"微软雅黑"; font-size:14px; }
+
+#hander{
+    /* height: 172px;
+    background-color: aqua; */
+}
+#hander .hander_1{
+	height: 30px;
+	text-align: right;
+	/* background-color: red; */
+	line-height: 30px;
+}
+#hander .hander_1 a{
+	margin: 20px;
+	text-decoration: none;
+	color: black;
+}
+#hander .hander_logo{
+	height: 75px;
+	/* background-color: blue; */
+	text-align: left;
+	padding: 5px;
+	margin-left: 30px;
+	line-height: 75px;
+	
+}
+.search-container{
+	float: right;
+	margin-right: 200px;
+}
+.search-input {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    outline: none;
+	
+}
+
+.search-input:focus {
+    border-color: #007bff;
+}
+
+.search-container a{
+	float: right;
+	
+}
+.search-container img{
+	height: 30px;
+	float: right;
+	margin-top:24px ;
+	margin-right: 40px;
+}
+.search-button:hover {
+    background-color: #0056b3;
+} 
+  
+
+#header_nav .nav {  
+        list-style-type: none;  
+        margin: 0;  
+        padding: 0;  
+        overflow: hidden; /* 清除浮动造成的布局问题 */  
+        background-color: skyblue; /* 设置背景色 */  
+    }  
+  
+    /* 设置列表项的样式 */  
+    #header_nav .nav li {  
+        float: left; /* 让列表项水平排列 */  
+    }  
+  
+    /* 设置链接的样式 */  
+    #header_nav .nav li a {  
+        display: block; /* 让链接填充整个列表项的空间 */  
+        color: white; /* 设置文本颜色 */
+		font-size: 20px;
+        text-align: center; /* 文本居中对齐 */  
+        padding: 14px 55px; /* 设置内边距 */  
+        text-decoration: none; /* 移除下划线 */  
+    }  
+  
+    /* 链接的鼠标悬停效果 */  
+    #header_nav .nav li a:hover {  
+        background-color: deepskyblue; /* 鼠标悬停时改变背景色 */  
+    }  
+	
+		.boke {
+			background-color: #f5f5f5;
+			height: 400px;
+		}
+		
+		.content {
+		    display: flex; /* 使用 Flexbox 布局 */
+			margin-left: 0;
+		}
+		
+		.list {
+		    flex: 1; /* 列表占据剩余空间 */
+		    padding: 0; /* 去除默认内边距 */
+		    margin: 0; /* 去除默认外边距 */
+		    list-style: none; /* 去除默认列表样式 */
+		}
+/* .content{
+	background-image: url("../image/lovetraveling_hander/03.jpg");
+	background-repeat: no-repeat;
+} */
+.biankuang{
+	margin: 20px;
+}
+.bliankuang p{
+	display: flex;
+	margin: 20px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.b_h {
+    display: flex;
+    align-items: flex-start; /* 使图片和文字顶部对齐 */
+    border: 2px solid skyblue;
+	border-radius: 15px;
+    padding: 10px;
+    max-width: 800px; /* 可根据需要调整 */
+    margin: 20px auto; /* 使容器居中 */
+}
+
+.b_h img {
+    width: 150px; /* 固定图片宽度 */
+    height: auto;
+    margin-right: 20px; /* 图片和文字之间的间距 */
+}
+
+.b_h li {
+    list-style: none; /* 去掉 li 的默认样式 */
+}
+
+.b_h span {
+    display: block; /* 使 span 独占一行 */
+    line-height: 1.5; /* 行高 */
+}
+#lunbo {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* 可根据需要调整 */
+    height: 400px; /* 可根据需要调整 */
+    overflow: hidden;
+    margin-left: auto; /* 使容器靠右 */
+    right: 0;
+
+}
+
+#lunbo img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+	top: 10px;
+	left: -148px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#lunbo img.active {
+    opacity: 1;
+}
+
+#neiro{
+	height: 480px;
+	background-color: crimson;
+}
+
+
+
+
+.mi-body {
+    background-color: #f5f5f5;
+}
+
+.floor .hd {
+    height: 30px;
+    line-height: 30px;
+}
+
+.floor .hd h2 {
+    font-size: 22px;
+    color: #333333;
+    font-weight: lighter;
+}
+
+.floor .hd .r a {
+    font-size: 16px;
+    color: #333333;
+}
+
+.mi-body .f1 .hd i {
+    background-color: #b0b0b0;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    float: right;
+    margin-top: 20px;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 8px;
+    transition: all .2s;
+}
+
+.mi-body .f1 .hd span {
+    line-height: 60px;
+    transition: all .2s;
+}
+
+.mi-body .f1 .hd a:hover span {
+    color: #ff6700;
+}
+
+.mi-body .f1 .hd a:hover i {
+    background-color: #ff6700;
+}
+
+.floor .bd {
+    display: flex; /* 使用 Flexbox 布局 */
+}
+
+.floor .bd .l {
+    margin-right: 20px; /* 调整左侧图片和右侧列表的间距 */
+}
+
+.floor .bd .r ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.floor .bd .r li {
+    width: 234px;
+    height: 280px;
+    background-color: #fff;
+    text-align: center;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    transition: all .2s;
+}
+
+.floor .bd .r li h3,
+.floor .bd .r li .price {
+    font-size: 14px;
+}
+
+.floor .bd .r li h3 {
+    color: #333333;
+    line-height: 22px;
+    margin-top: 17px;
+}
+
+.floor .bd .r li .desc {
+    line-height: 21px;
+    color: #b0b0b0;
+}
+
+.floor .bd .r li .price {
+    line-height: 38px;
+    color: #ff6700;
+}
+
+.floor .bd .r li:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    transform: translateY(-3px);
+}
+
+.floor .ad {
+    margin-top: 33px;
+}
+
+#footer {
+    height: 68px;
+    background: skyblue;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+.tree{
+	position: fixed;
+	right: 20px;
+	bottom: 5%;
+}
